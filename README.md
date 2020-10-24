@@ -57,10 +57,28 @@ Output #10: key (1 <= key <= 26)
 * Data shown below is separated by commas. Any other delimiter can be used.
 * Lightly edited from the original challenge for readability.
 
+
+## Installation
+Note that `python3` is required to run the submissions provided thus far.
+
+### Steps:
+1. clone the repo
+```
+$ git clone git@github.com:netserf/vicpimakers-challenges.git
+``` 
+2. install dependencies
+```
+$ pip install --user -r python/requirements.txt
+```
+3. run submissions using the instructions below.
+
+
 ## Submissions To Date
 | file              | requirements  | instructions            | notes                |
 |:------------------|:--------------|:------------------------|:---------------------|
-| jims_challenge.py | python3       | `$ python3 python/jims_challenge.py \` <br/> `<list_of_integers>`<br/>Example:<br/> `$ python3 python/jims_challenge.py \` <br/> `"72,111,63,85,61,56,118,121,61,69,63,61"` | complete     |
+| jims_challenge.py | python3       | `$ python3 python/jims_challenge.py \` <br/> `<list_of_integers>`<br/>Example:<br/> `$ python3 python/jims_challenge.py \` <br/> `"72,111,63,85,61,56,118,121,61,69,63,61"` | complete |
+| cvm_challenge1.py | python3       | `$ python3 python/cvm_challenge1.py` | complete |
+
 
 ## Automated Testing
 Since we have been provided with both the test input and output, a pytest script
@@ -83,5 +101,3 @@ code for testing (assuming it outputs to stdout).
 
 ## TODOs
 * Figure out a way to make the testing more universal.
-* Present this to the [vicpimakers.ca](https://vicpimakers.ca) community and
-encourage submissions!
