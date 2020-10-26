@@ -78,6 +78,7 @@ $ pip install --user -r python/requirements.txt
 |:------------------|:--------------|:------------------------|:---------------------|
 | jims_challenge.py | python3       | `$ python3 python/jims_challenge.py \` <br/> `<list_of_integers>`<br/>Example:<br/> `$ python3 python/jims_challenge.py \` <br/> `"72,111,63,85,61,56,118,121,61,69,63,61"` | complete |
 | cvm_challenge1.py | python3       | `$ python3 python/cvm_challenge1.py` | complete |
+| GoogleSheetSolutionByGeorge | none | browse to the link in this file | complete |
 
 
 ## Automated Testing
