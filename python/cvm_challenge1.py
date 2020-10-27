@@ -45,8 +45,8 @@ for i in input_list:
 print("Output4: min is: %s position is: %s" % (lmin, lpos))
 
 #5 - still needs work
-# use numpy
-import numpy
+# test numpy
+# import numpy
 dup_list = []
 sort_list = sorted(input_list)
 last_value = 0
